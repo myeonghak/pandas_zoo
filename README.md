@@ -40,7 +40,8 @@ Contents
 5.	[Timestamps](#timestamps)
 6.	[Apply a Function](#apply)
 7.	[loc / iloc](#loc-and-iloc)
-8.	[Plot](#plot)
+8.	[Plot](#plot)  
+
 
 
 <br/>  
@@ -48,11 +49,11 @@ Contents
 ### Create and Load
 --------
 
-1.  **리스트로 새로운 데이터프레임 만들기 (Creating new DataFrame from lists)**
+1.  **리스트로 새로운 데이터프레임 만들기 (Creating new DataFrame from lists)**  
 
 <br/>  
 
-##### [키워드 key words]
+##### [키워드 key words]  
   - list, create, dataframe, make, DF
   - 리스트, 데이터프레임, 만들기
 
@@ -65,16 +66,24 @@ DF = pd.DataFrame(panda_members, columns = ['Name', 'Bamboo' ,'Water'])
 DF
 
 ```
-![create_a_df](/assets/create_df.png)
-<br/>  
-2. **딕셔너리로 새로운 데이터 프레임 만들기 (Creating new DataFrame from dict of lists)**
+![create_a_df](/assets/create_df.png)  
+
+
 <br/>  
 
-##### [키워드 key words]
+
+
+2. **딕셔너리로 새로운 데이터 프레임 만들기 (Creating new DataFrame from dict of lists)**  
+
+
+<br/>  
+
+
+##### [키워드 key words]  
   - dict, dictionary, create, dataframe, make, DF
   - 딕셔너리, 사전, 데이터프레임, 만들기
 
-##### FYI
+##### FYI  
   - you have to make value part in a form of list, not integer or float.
 
 
@@ -90,9 +99,10 @@ DF = pd.DataFrame(panda_members)
 
 DF
 ```
-![create_a_df](/assets/create_df.png)
+![create_a_df](/assets/create_df.png)  
 
 <br/>  
+
 ### Descriptive
 --------
 
