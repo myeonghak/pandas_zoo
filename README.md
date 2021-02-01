@@ -103,20 +103,20 @@ DF
 
 <br/>  
 
-### Descriptive
+### Descriptive  
 --------
 
 
-1. **기술 통계량 조회하기 (Getting desriptive statistics from dataframe)**
+1. **기술 통계량 조회하기 (Getting desriptive statistics from dataframe)**  
 <br/>  
 
-##### [키워드 key words]
+##### [키워드 key words]  
   - 샘플 수, 평균, 표준편차, 4분위수 (최솟값/ 25%/ 50%/ 75%/ 최댓값), 기술 통계량, 요약
   - count, mean, median, std, standard deviation, variance, description, summary
   - statistics, 4-quantile, 4th quantile, quartile
 
 
-##### FYI
+##### FYI  
   - it excludes nan values automatically
 
 ``` python
@@ -131,15 +131,15 @@ DF.describe()
 ```
 
 
-![describe](/assets/describe.png)
+![describe](/assets/describe.png)  
 
 <br/>  
-### Imputation
+### Imputation  
 --------
-1. **열 별로 결측치가 포함된 레코드의 수 세기 (Determining the number of NA values in columns)**
+1. **열 별로 결측치가 포함된 레코드의 수 세기 (Determining the number of NA values in columns)**  
 <br/>  
 
-##### [키워드 key words]
+##### [키워드 key words]  
   - 결측값 세기, 결측치, nan값, 칼럼, 피처
   - nan, na, invalid values, column, feature
 
@@ -154,16 +154,16 @@ DF = pd.DataFrame.from_dict(panda_members)
 DF.isna().sum()
 ```
 
-![count_nan](/assets/count_nan.png)
+![count_nan](/assets/count_nan.png)  
 
 <br/>  
-### Groupby
+### Groupby  
 --------
 
-1. **그룹 별로 평균 값 구하기 (get average value of each column per group)**
+1. **그룹 별로 평균 값 구하기 (get average value of each column per group)**  
 <br/>  
 
-##### [키워드 key words]
+##### [키워드 key words]  
   - 그룹, 집단 별, 묶음, 평균, 그룹바이
   - groupby, mean, average, by group
 
@@ -183,17 +183,17 @@ DF.groupby("Class").mean()
 
 ```
 
-![groupby_mean](/assets/groupby_mean.png)
+![groupby_mean](/assets/groupby_mean.png)  
 
 <br/>  
-### Timestamps
+### Timestamps  
 --------
 
 
-1. **행 별 차이 구하기, 차분 (get difference between rows)**
+1. **행 별 차이 구하기, 차분 (get difference between rows)**  
 <br/>  
 
-##### [키워드 key words]
+##### [키워드 key words]  
   - 행별, 차이, 차분, 이동, 시계열
   - by row, difference, gap, between, time series
 
@@ -217,20 +217,20 @@ DF["Cum_Bamboo"]-DF["Cum_Bamboo"].shift(1)
 
 ```
 
-![diff_bamboo](/assets/diff_bamboo.png)
+![diff_bamboo](/assets/diff_bamboo.png)  
 
 
 
 <br/>  
-### Apply
+### Apply  
 --------
 
 
 
-1. **사용자 지정 함수 적용하기 (apply lambda function to Pandas Series)**
+1. **사용자 지정 함수 적용하기 (apply lambda function to Pandas Series)**  
 <br/>  
 
-##### [키워드 key words]
+##### [키워드 key words]  
   - 람다, 함수, 맵핑
   - apply, mapping, custom function, column
 
@@ -251,20 +251,20 @@ DF.Cum_Water.apply(lambda x: x+50)
 
 ```
 
-![apply_lambda](/assets/apply_lambda.png)
+![apply_lambda](/assets/apply_lambda.png)  
 
 
 
 <br/>  
-### loc and iloc
+### loc and iloc  
 --------
 
 
 
-1. **loc로 새로운 칼럼 할당하기 (Assign a new column using loc method)**
+1. **loc로 새로운 칼럼 할당하기 (Assign a new column using loc method)**  
 <br/>  
 
-##### [키워드 key words]
+##### [키워드 key words]  
   - 라벨 기반 인덱싱, 칼럼 할당하기, 열 생성하기
   - loc, label-based indexing, assign a column, create a column
 
@@ -286,20 +286,20 @@ DF
 
 ```
 
-![assign_col](/assets/assign_col.png)
+![assign_col](/assets/assign_col.png)  
 
 
 <br/>  
-### Plot
+### Plot  
 --------
 
 
 
 
-1. **판다스 시리즈 데이터 시각화하기 (draw a quick plot using pandas series)**
+1. **판다스 시리즈 데이터 시각화하기 (draw a quick plot using pandas series)**  
 <br/>  
 
-##### [키워드 key words]
+##### [키워드 key words]  
   - 시각화, 그림, 도식화, 그리기, 시리즈
   - series, plot, draw, visualization
 
@@ -320,4 +320,4 @@ DF.Cum_Bamboo.plot()
 
 ```
 
-![series_plot](/assets/series_plot.png)
+![series_plot](/assets/series_plot.png)  
