@@ -134,10 +134,14 @@ DF.describe()
 ![describe](/assets/describe.png)  
 
 <br/>  
+
 ### Imputation  
 --------
 1. **열 별로 결측치가 포함된 레코드의 수 세기 (Determining the number of NA values in columns)**  
+
+
 <br/>  
+
 
 ##### [키워드 key words]  
   - 결측값 세기, 결측치, nan값, 칼럼, 피처
@@ -156,16 +160,23 @@ DF.isna().sum()
 
 ![count_nan](/assets/count_nan.png)  
 
+
 <br/>  
+
+
 ### Groupby  
 --------
 
 1. **그룹 별로 평균 값 구하기 (get average value of each column per group)**  
+
+
 <br/>  
+
 
 ##### [키워드 key words]  
   - 그룹, 집단 별, 묶음, 평균, 그룹바이
   - groupby, mean, average, by group
+
 
 ```python
 
@@ -186,12 +197,15 @@ DF.groupby("Class").mean()
 ![groupby_mean](/assets/groupby_mean.png)  
 
 <br/>  
+
+
 ### Timestamps  
 --------
 
 
 1. **행 별 차이 구하기, 차분 (get difference between rows)**  
 <br/>  
+
 
 ##### [키워드 key words]  
   - 행별, 차이, 차분, 이동, 시계열
@@ -217,18 +231,26 @@ DF["Cum_Bamboo"]-DF["Cum_Bamboo"].shift(1)
 
 ```
 
+
 ![diff_bamboo](/assets/diff_bamboo.png)  
 
 
 
+
 <br/>  
+
+
 ### Apply  
 --------
 
 
 
+
 1. **사용자 지정 함수 적용하기 (apply lambda function to Pandas Series)**  
+
+
 <br/>  
+
 
 ##### [키워드 key words]  
   - 람다, 함수, 맵핑
@@ -256,13 +278,18 @@ DF.Cum_Water.apply(lambda x: x+50)
 
 
 <br/>  
+
+
 ### loc and iloc  
 --------
 
 
 
 1. **loc로 새로운 칼럼 할당하기 (Assign a new column using loc method)**  
+
+
 <br/>  
+
 
 ##### [키워드 key words]  
   - 라벨 기반 인덱싱, 칼럼 할당하기, 열 생성하기
@@ -286,10 +313,14 @@ DF
 
 ```
 
+
 ![assign_col](/assets/assign_col.png)  
 
 
 <br/>  
+
+
+
 ### Plot  
 --------
 
@@ -297,7 +328,10 @@ DF
 
 
 1. **판다스 시리즈 데이터 시각화하기 (draw a quick plot using pandas series)**  
+
+
 <br/>  
+
 
 ##### [키워드 key words]  
   - 시각화, 그림, 도식화, 그리기, 시리즈
