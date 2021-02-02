@@ -47,7 +47,7 @@ Contents
 4.	[Groupby / Aggregating](#groupby)
 5.	[Timestamps](#timestamps)
 6.	[Apply a Function](#apply)
-7.	[loc / iloc](#loc-and-iloc)
+7.	[Indexing](#indexing)
 8.	[Plot](#plot)  
 
 
@@ -331,7 +331,7 @@ DF.Cum_Water.apply(lambda x: x+50)
 <br/>  
 
 
-### loc and iloc  
+### Indexing  
 --------
 
 
@@ -367,6 +367,60 @@ DF
 
 ![assign_col](/assets/assign_col.png)  
 
+
+<br/>  
+
+
+
+
+2. **원하는 데이터 타입의 칼럼만 선택하기 (Selecting columns by specific data types)**  
+
+
+<br/>  
+
+
+##### [키워드 key words]  
+  - 열 선택, 칼럼 선택, 자료형, 데이터 타입, 원하는 칼럼, 오브젝트, 문자열, 수치형, 날짜
+  - dtype, select column, select by dtype, object, numeric, datetime
+
+
+```python
+# panda members info
+panda_members = {'Name' : ['Ace', 'Baam', 'Choco', "Dill", "Eren", "Foo"], # object
+                'Bamboo': [20, np.nan, 7, np.nan, np.nan, 20], # int
+                'Water': [30, 40, 10, np.nan, 11, 20,], # int
+                'Very_Cute': [True, False, True, True, True, True]} # bool
+
+DF = pd.DataFrame.from_dict(panda_members)
+
+# default argument is include. if you don't specify arg name, it returns columns "with" specific dtype.
+
+# DF.select_dtypes("O")
+DF.select_dtypes(include="O")
+
+```
+
+
+returns dataframe only object dtype columns.
+오브젝트 자료형을 가진 칼럼만 포함한 데이터 프레임을 출력해 줍니다.  
+
+
+![assign_col](/assets/select_dtype_include.png)  
+
+
+
+
+``` python
+# exclude columns with object dtype
+DF.select_dtypes(exclude="O")
+
+```
+
+
+returns dataframe without object dtype columns.
+오브젝트 자료형이 아닌 칼럼만 포함한 데이터 프레임을 출력해 줍니다.
+
+![assign_col](/assets/select_dtype_exclude.png)  
 
 <br/>  
 
