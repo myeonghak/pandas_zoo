@@ -240,7 +240,7 @@ DF[["Name"]].join(pd.get_dummies(DF.Hobby).add_prefix("Hobbies_of_pandas_")).gro
 
 ```
 
-the result means that Ace's hobby is to roll and sleeping.  
+the result shows that Ace's hobby is to roll and sleep.  
 
 우리 Ace는 굴러다니기와 잠자기라는 취미를 가지고 있네요.  
 
