@@ -240,9 +240,11 @@ DF[["Name"]].join(pd.get_dummies(DF.Hobby).add_prefix("Hobbies_of_pandas_")).gro
 
 ```
 
-the result shows that Ace's hobby is to roll and sleep.  
 
-우리 Ace는 굴러다니기와 잠자기라는 취미를 가지고 있네요.  
+- 우리 Ace는 굴러다니기와 잠자기라는 취미를 가지고 있네요.  
+- the result shows that Ace's hobby is to roll and sleep.   
+
+
 
 
 ![multi_one_hot](/assets/multi_one_hot.png)  
@@ -401,8 +403,9 @@ DF.select_dtypes(include="O")
 ```
 
 
-returns dataframe only object dtype columns.
-오브젝트 자료형을 가진 칼럼만 포함한 데이터 프레임을 출력해 줍니다.  
+- 오브젝트 자료형을 가진 칼럼만 포함한 데이터 프레임을 출력해 줍니다.    
+- returns dataframe only object dtype columns.   
+
 
 
 ![assign_col](/assets/select_dtype_include.png)  
@@ -416,9 +419,9 @@ DF.select_dtypes(exclude="O")
 
 ```
 
+- 오브젝트 자료형이 아닌 칼럼만 포함한 데이터 프레임을 출력해 줍니다.  
+- returns dataframe without object dtype columns.  
 
-returns dataframe without object dtype columns.
-오브젝트 자료형이 아닌 칼럼만 포함한 데이터 프레임을 출력해 줍니다.
 
 ![assign_col](/assets/select_dtype_exclude.png)  
 
