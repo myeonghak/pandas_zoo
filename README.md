@@ -71,7 +71,7 @@ Contents
 
 
 <a id="descriptive"></a>
-### 2. Descriptive  
+### 2. Descriptive    [click here!](/notebook/02.Descriptive)
 --------
 
 
@@ -79,7 +79,7 @@ Contents
 <br/>  
 
 <a id="imputation"></a>
-### 3. Imputation - Missing values
+### 3. Imputation - Missing values   [click here!](/notebook/03.Imputation)
 --------
 1. **열 별로 결측치가 포함된 레코드의 수 세기 (Determining the number of NA values in columns)**  
 
@@ -88,10 +88,10 @@ Contents
 
 
 <a id="filter"></a>
-### 4. Filter
+### 4. Filter  [click here!](/notebook/04.Filter)
 --------
 <a id="indexing"></a>
-### 5. Indexing  
+### 5. Indexing    [click here!](/notebook/05.Indexing)
 --------
 
 
@@ -106,7 +106,7 @@ Contents
 
 
 <a id="apply"></a>
-### 6. Apply  
+### 6. Apply    [click here!](/notebook/06.Apply)
 --------
 
 
@@ -114,7 +114,7 @@ Contents
 
 
 <a id="groupby"></a>
-### 7. Groupby  
+### 7. Groupby    [click here!](/notebook/07.Groupby)
 --------
 
 1. **그룹 별로 평균 값 구하기 (get average value of each column per group)**  
@@ -126,7 +126,7 @@ Contents
 
 
 <a id="time-series"></a>
-### 8. Time Series  
+### 8. Time Series    [click here!](/notebook/08.Time_Series)
 --------
 
 
@@ -136,14 +136,14 @@ Contents
 
 
 <a id="plot"></a>
-### 9. Plot  
+### 9. Plot    [click here!](/notebook/09.Plot)
 --------
 
 1. **판다스 시리즈 데이터 시각화하기 (draw a quick plot using pandas series)**  
 
 
 <a id="etc"></a>
-### 10. etc  
+### 10. etc    [click here!](/notebook/10.Etc)
 --------
 
 1. **출력 결과 확장하기 (expanding pandas output to be shown)**  
