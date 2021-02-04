@@ -38,7 +38,7 @@ import numpy as np
 Example  
 -------
 
-1. **사용자 지정 함수 적용하기 (apply lambda function to Pandas Series)**  
+1. **사용자 지정 함수 적용하기 (Applying lambda function to Pandas Series)**  
 
 <br/>  
 
@@ -63,8 +63,8 @@ DF.Cum_Water.apply(lambda x: x+50)
 
 ```
 
-![apply_lambda](/assets/06.Apply/apply_lambda.png)  
 
+<center><img src="/assets/06.Apply/apply_lambda.png" align="center" alt="drawing" width="200"/></center>  
 
 
 <br/>  
@@ -122,7 +122,12 @@ Contents
 ### 4. Filter  [click here!](/notebook/04.Filter)
 --------
 
-1. **특정 단어를 포함한 row만 골라내기 (get rows that contain specific text/word/string)**  
+1. **특정 단어를 포함한 row만 골라내기 (Getting rows that contain specific text/word/string)**  
+pd.Series.str.contains   
+
+
+2. **데이터프레임 열(시리즈) 내에서 리스트 내의 특정 값이 있는 행 골라내기 (Using a list of values to select rows from Data Frame)**
+pd.Series.isin  
 
 <a id="indexing"></a>
 ### 5. Indexing    [click here!](/notebook/05.Indexing)
@@ -130,7 +135,7 @@ Contents
 
 
 
-1. **loc로 새로운 칼럼 할당하기 (Assign a new column using loc method)**  
+1. **loc로 새로운 칼럼 할당하기 (Assigning a new column using loc method)**  
 
 2. **원하는 데이터 타입의 칼럼만 선택하기 (Selecting columns by specific data types)**  
 
@@ -144,14 +149,14 @@ Contents
 --------
 
 
-1. **사용자 지정 함수 적용하기 (apply lambda function to Pandas Series)**  
+1. **사용자 지정 함수 적용하기 (Applying lambda function to Pandas Series)**  
 
 
 <a id="groupby"></a>
 ### 7. Groupby    [click here!](/notebook/07.Groupby)
 --------
 
-1. **그룹 별로 평균 값 구하기 (get average value of each column per group)**  
+1. **그룹 별로 평균 값 구하기 (Getting average value of each column per group)**  
 
 
 2. **그룹 별로 Multi level one-hot encoding 하기 (one-hot encoding for multi-level column data)**  
@@ -164,7 +169,7 @@ Contents
 --------
 
 
-1. **행 별 차이 구하기, 차분 (get difference between rows)**  
+1. **행 별 차이 구하기, 차분 (Getting difference between rows)**  
 
 <br/>  
 
@@ -173,11 +178,11 @@ Contents
 ### 9. Plot    [click here!](/notebook/09.Plot)
 --------
 
-1. **판다스 시리즈 데이터 시각화하기 (draw a quick plot using pandas series)**  
+1. **판다스 시리즈 데이터 시각화하기 (Drawing a quick plot using pandas series)**  
 
 
 <a id="etc"></a>
 ### 10. etc    [click here!](/notebook/10.Etc)
 --------
 
-1. **출력 결과 확장하기 (expanding pandas output to be shown)**  
+1. **출력 결과 확장하기 (Expanding pandas output to be shown)**  
