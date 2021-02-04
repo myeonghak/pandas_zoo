@@ -72,7 +72,7 @@ DF.Cum_Water.apply(lambda x: x+50)
 Contents
 --------
 
-1.	[데이터 프레임 만들기 Create / Load DataFrame](#create-and-load)
+1.	[데이터 프레임 DataFrame](#dataframe)
 2.	[조회하기 Descriptive](#descriptive)
 3.	[결측치 처리 Missing Values and Imputation](#imputation)
 4.	[행/열에 조건 걸기 Filter](#filter)
@@ -87,13 +87,15 @@ Contents
 
 <br/>  
 
-<a id="create-and-load"></a>
-### 1. 데이터 프레임 만들기 Create and Load  [click here!](/notebook/01.Create_and_Load)
+<a id="dataframe"></a>
+### 1. 데이터 프레임 만들기 Create and Load  [click here!](/notebook/01.DataFrame)
 --------
 
 1.  **리스트로 새로운 데이터프레임 만들기 (Creating new DataFrame from lists)**  
 
 2. **딕셔너리로 새로운 데이터 프레임 만들기 (Creating new DataFrame from dict of lists)**  
+
+3. **3. 복수의 데이터 프레임 병합하기 (merging multiple(more than 2) DataFrames)**
 
 
 <br/>  
@@ -110,7 +112,7 @@ Contents
 <br/>  
 
 <a id="imputation"></a>
-### 3. 결측치 처리 Missing Values and Imputation   [click here!](/notebook/03.Imputation)
+### 3. 결측치 처리 Missing Values and Imputation   [click here!](/notebook/03.Missing_Values_and_Imputation)
 --------
 1. **열 별로 결측치가 포함된 레코드의 수 세기 (Determining the number of NA values in columns)**  
 
