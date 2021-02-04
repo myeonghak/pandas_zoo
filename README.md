@@ -129,6 +129,11 @@ pd.Series.str.contains
 2. **데이터프레임 열(시리즈) 내에서 리스트 내의 특정 값이 있는 행 골라내기 (Using a list of values to select rows from Data Frame)**
 pd.Series.isin  
 
+3. **중복되는 행 제거하기, 열(복수 가능) 기준 혹은 전체 행 기준 (Droping duplicated/repeated/redundant rows, in respect to column(s) or full row)**
+pd.drop_duplicates
+
+
+
 <a id="indexing"></a>
 ### 5. Indexing    [click here!](/notebook/05.Indexing)
 --------

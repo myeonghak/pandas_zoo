@@ -67,3 +67,45 @@ DF[DF.Hobby.isin(list_to_check)]
 
 
 <br/>  
+
+
+3. **중복되는 행 제거하기, 열(복수 가능) 기준 혹은 전체 행 기준 (Droping duplicated/repeated/redundant rows, in respect to column(s) or full row)**
+
+<br/>  
+
+
+##### [키워드 key words]  
+  - 중복 제거, 반복 제거
+  - drop duplicates, repeated rows
+
+
+```python
+# panda members info
+panda_members = {'Name' : ['Ace','Ace', 'Baam','Ace', 'Choco','Baam','Choco', 'Ace'],
+                'Bamboo': [20, 20, 10, 15, 100,10 , 100, 15],
+                 'Hobby' : ['Rolling', 'Rolling', 'Playing Dead', "Playing Dead", "Sleeping",'Playing Dead', "Rolling",'Sleeping']}
+
+DF = pd.DataFrame.from_dict(panda_members)
+
+DF
+
+```
+![assign_col](/assets/04.Filter/drop_duplicates_before.png)
+
+```python
+# drop duplicates
+DF.drop_duplicates()
+```
+![assign_col](/assets/04.Filter/drop_duplicates_after.png)
+
+```python
+# drop duplicates with subset, if "Name" and "Bamboo" values are same, these rows are regarded duplicates.
+DF.drop_duplicates(subset=["Name","Bamboo"])
+
+```
+
+![assign_col](/assets/04.Filter/drop_duplicates_subset.png)
+
+
+
+<br/>  
