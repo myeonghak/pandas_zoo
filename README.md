@@ -72,23 +72,23 @@ DF.Cum_Water.apply(lambda x: x+50)
 Contents
 --------
 
-1.	[Create / Load DataFrame](#create-and-load)
-2.	[Descriptive](#descriptive)
-3.	[Imputation](#imputation)
-4.	[Filter](#filter)
-5.	[Indexing](#indexing)
-6.	[Apply a Function](#apply)
-7.  [Groupby / Aggregating](#groupby)
-8.	[Time Series](#time-series)
-9.	[Plot](#plot)  
-10.	[Etc](#etc)  
+1.	[데이터 프레임 만들기 Create / Load DataFrame](#create-and-load)
+2.	[조회하기 Descriptive](#descriptive)
+3.	[결측치 처리 Missing Values and Imputation](#imputation)
+4.	[행/열에 조건 걸기 Filter](#filter)
+5.	[인덱싱 Indexing](#indexing)
+6.	[함수 적용하기 Apply a Function](#apply)
+7.  [그룹별 조작하기 Groupby / Aggregating](#groupby)
+8.	[시계열 Time Series](#time-series)
+9.	[시각화 Plot](#plot)  
+10.	[기타 Etc](#etc)  
 
 
 
 <br/>  
 
 <a id="create-and-load"></a>
-### 1. Create and Load  [click here!](/notebook/01.Create_and_Load)
+### 1. 데이터 프레임 만들기 Create and Load  [click here!](/notebook/01.Create_and_Load)
 --------
 
 1.  **리스트로 새로운 데이터프레임 만들기 (Creating new DataFrame from lists)**  
@@ -102,7 +102,7 @@ Contents
 
 
 <a id="descriptive"></a>
-### 2. Descriptive    [click here!](/notebook/02.Descriptive)
+### 2. 조회하기 Descriptive    [click here!](/notebook/02.Descriptive)
 --------
 
 
@@ -110,16 +110,19 @@ Contents
 <br/>  
 
 <a id="imputation"></a>
-### 3. Imputation - Missing values   [click here!](/notebook/03.Imputation)
+### 3. 결측치 처리 Missing Values and Imputation   [click here!](/notebook/03.Imputation)
 --------
 1. **열 별로 결측치가 포함된 레코드의 수 세기 (Determining the number of NA values in columns)**  
+
+2. **결측 포함된 행/열 날리기 (Droping rows/cols with NA values)**
+pd.dropna
 
 
 <br/>  
 
 
 <a id="filter"></a>
-### 4. Filter  [click here!](/notebook/04.Filter)
+### 4.행/열에 조건 걸기 Filter  [click here!](/notebook/04.Filter)
 --------
 
 1. **특정 단어를 포함한 row만 골라내기 (Getting rows that contain specific text/word/string)**  
@@ -135,7 +138,7 @@ pd.drop_duplicates
 
 
 <a id="indexing"></a>
-### 5. Indexing    [click here!](/notebook/05.Indexing)
+### 5. 인덱싱 Indexing    [click here!](/notebook/05.Indexing)
 --------
 
 
@@ -150,7 +153,7 @@ pd.drop_duplicates
 
 
 <a id="apply"></a>
-### 6. Apply    [click here!](/notebook/06.Apply)
+### 6. 함수 적용하기 Apply    [click here!](/notebook/06.Apply)
 --------
 
 
@@ -158,7 +161,7 @@ pd.drop_duplicates
 
 
 <a id="groupby"></a>
-### 7. Groupby    [click here!](/notebook/07.Groupby)
+### 7. 그룹별 조작하기 Groupby    [click here!](/notebook/07.Groupby)
 --------
 
 1. **그룹 별로 평균 값 구하기 (Getting average value of each column per group)**  
@@ -170,7 +173,7 @@ pd.drop_duplicates
 
 
 <a id="time-series"></a>
-### 8. Time Series    [click here!](/notebook/08.Time_Series)
+### 8. 시계열 Time Series    [click here!](/notebook/08.Time_Series)
 --------
 
 
@@ -180,14 +183,14 @@ pd.drop_duplicates
 
 
 <a id="plot"></a>
-### 9. Plot    [click here!](/notebook/09.Plot)
+### 9. 시각화 Plot    [click here!](/notebook/09.Plot)
 --------
 
 1. **판다스 시리즈 데이터 시각화하기 (Drawing a quick plot using pandas series)**  
 
 
 <a id="etc"></a>
-### 10. etc    [click here!](/notebook/10.Etc)
+### 10. 기타 etc    [click here!](/notebook/10.Etc)
 --------
 
 1. **출력 결과 확장하기 (Expanding pandas output to be shown)**  
