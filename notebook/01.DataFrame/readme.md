@@ -95,3 +95,27 @@ pd.concat(DF_list,axis=1)
 
 
 <br/>  
+
+
+4. **기존의 데이터프레임에 새로운 행 추가하기 (Appending a new row to an existing DataFrame)**
+
+
+<br/>  
+
+
+
+```python
+panda_members = {'Name' : ['Ace', 'Baam', 'Choco'],
+                'Bamboo': [20, 12, 7],
+                'Water': [30, 40, 10]}
+
+DF = pd.DataFrame.from_dict(panda_members)
+
+new_info_list=['Dill',30,40]
+DF.append(pd.Series(new_info_list, index=['Name','Bamboo','Water']), ignore_index=True)
+
+```
+![create_a_df](/assets/01.DataFrame/append_new_row.png)  
+
+
+<br/>  

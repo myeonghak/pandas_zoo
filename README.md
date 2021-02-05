@@ -95,8 +95,9 @@ Contents
 
 2. **딕셔너리로 새로운 데이터 프레임 만들기 (Creating new DataFrame from dict of lists)**  
 
-3. **3. 복수의 데이터 프레임 병합하기 (merging multiple(more than 2) DataFrames)**
+3. **복수의 데이터 프레임 병합하기 (merging multiple(more than 2) DataFrames)**
 
+4. **기존의 데이터프레임에 새로운 행 추가하기 (Appending a new row to an existing DataFrame)**
 
 <br/>  
 
@@ -109,6 +110,10 @@ Contents
 
 
 1. **기술 통계량 조회하기 (Getting desriptive statistics from dataframe)**  
+2. **열 별로 다양한 기술 통계량 확인하기 (Checking specific statistics from columns)**
+3. **열 내의 유니크한 카테고리 별로 개수/비율 구하기  (Counting numbers of sample / Calculting proportion per category in a column)**
+
+
 <br/>  
 
 <a id="imputation"></a>
