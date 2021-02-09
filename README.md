@@ -99,6 +99,9 @@ Contents
 
 4. **기존의 데이터프레임에 새로운 행 추가하기 (Appending a new row to an existing DataFrame)**
 
+5. **새로운 열을 추가하지 않고 기존의 열에 새로운 값을 병합하기 (replacing columns using existing DF)**  
+pd.update
+
 <br/>  
 
 
@@ -165,6 +168,9 @@ pd.drop_duplicates
 
 
 1. **사용자 지정 함수 적용하기 (Applying lambda function to Pandas Series)**  
+2. **문자열 행에서 마지막 n개 단어 취하기 (getting last n characters from a string column)**
+3. **열에 if else 조건문 적용하기 (applying if else statement to a column)**
+4. **apply에 여러개 인자 넣어주기 (multiple argument for apply statement in DF)**
 
 
 <a id="groupby"></a>

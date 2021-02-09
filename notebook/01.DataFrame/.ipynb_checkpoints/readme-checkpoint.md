@@ -119,33 +119,3 @@ DF.append(pd.Series(new_info_list, index=['Name','Bamboo','Water']), ignore_inde
 
 
 <br/>  
-
-
-5. **새로운 열을 추가하지 않고 기존의 열에 새로운 값을 병합하기 (replacing columns using existing DF)**
-
-
-<br/>  
-
-
-
-```python
-panda_members = {'Name' : ['Ace', 'Baam', 'Choco'],
-                'Bamboo': [20, 12, 7],
-                'Water': [30, 40, 10]}
-
-DF = pd.DataFrame.from_dict(panda_members)
-
-panda_members_2 = {'Name' : ['Dill', 'Elis', 'Fatt'],
-                'Age': [3, 10, 30],
-                'Water': [5, 4, 50]}
-
-DF_2 = pd.DataFrame.from_dict(panda_members_2)
-
-DF.update(DF_2)
-
-DF
-```
-![create_a_df](/assets/01.DataFrame/pd_update.png)  
-
-
-<br/>  
